@@ -1,0 +1,61 @@
+:root{
+  --primary-color: rgba(113, 188, 32, 0.1);
+  --secondary-color: rgba(113, 188, 32, 0.05);
+  --sub-titles: 40px;
+  --content-titles:20px;
+  --main-titles: 60px;
+  --content-color: #4d5448;
+}
+body{
+  background-color: var(--primary-color);
+}
+
+.hero{
+  margin: 10px;
+}
+.hero-title{
+  font-family: 'Courier New', Courier, monospace;
+  color:var(--content-color);
+  font-size: var(--main-titles);
+  font-style:bold;
+  padding: 30px 50px;
+}
+
+.about{
+  display: flex;
+  gap: 100px;
+}
+.about-image{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.about-header{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: var(--sub-titles);
+  color: var(--content-color);
+}
+.about-content{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: var(--content-titles);
+  color: var(--content-color);
+}
+hr{
+  border: dashed 1px rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+}
+
+.projects{
+  margin: 40px 30px;
+  padding: 0px 10px;
+  color: var(--content-color);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: var(--content-titles);
+}
+.footer{
+  margin: 40px 30px;
+  padding: 0px 10px;
+  color: var(--content-color);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: var(--content-titles);
+}
