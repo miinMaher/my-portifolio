@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="blue">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Mina's Portfolio | Securing the Mainframe</title>
   <link rel="stylesheet" href="style.css">
   <script>
     window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
@@ -11,28 +11,40 @@
   <script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
 <body>
-  <!-- hero section -->
+  <nav class="top-nav">
+    <div class="logo">Mina_Sec</div>
+    <button id="theme-toggle" class="btn">Switch to Red Team</button>
+  </nav>
+
   <div class="hero">
-    <h1 class="hero-title">about me</h1>
+    <h1 class="hero-title">About Me</h1>
   </div>
   <hr>
-  <!-- about section -->
+
   <div class="about">
-    <img src="images\me.png" alt="me" class="about-image">
-    <div > 
+    <img id="profile-pic" src="images/defenderMe.jpg" alt="Mina - Blue Team" class="about-image">
+    <div class="about-text"> 
       <h2 class="about-header">This is me</h2>
-      <p class="about-content">My name is Mina, An undergraduate student at Hurghada University studying Computer Science and building software projects.</p>
+      <p class="about-content">My name is Mina, an undergraduate student at Hurghada University studying Computer Science and building software projects.</p>
     </div>
   </div>
-  </div>
   <hr>
+
   <div class="projects">
-    <p>I haven't really done alot of projects yet but i am willing to work on that 😊</p>
+    <h2>Projects & Operations</h2>
+    <ul class="project-list">
+      <li><strong>Cashier & Inventory System:</strong> Desktop application engineered using C#, WPF, and MS SQL Server for database management.</li>
+      <li><strong>Pleni Perfume Brand:</strong> UI/UX design wireframing in Figma and web repository collaboration.</li>
+      <li><strong>Capture The Flag (CTF):</strong> Training in offensive cybersecurity challenges and vulnerability analysis.</li>
+    </ul>
   </div>
   <hr>
+
   <div class="footer">
     <p>Follow me on social media to stay updated!</p>
   </div>
+
+  <script src="script.js"></script>
+  <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </body>
-<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
 </html>
