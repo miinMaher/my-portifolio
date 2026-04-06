@@ -22,6 +22,7 @@ themeToggleBtn.addEventListener('click', () => {
             themeToggleBtn.textContent = 'Switch to Red Team';
             profileImage.src = 'images/defenderMe.jpg';
             profileImage.alt = 'Mina - Blue Team';
+            document.querySelector('.project-list').innerHTML = '<p>NOTHING YET😊</p>';
         }
 
         // 3. Remove the fade-out class so the new image fades back in
