@@ -16,6 +16,7 @@ themeToggleBtn.addEventListener('click', () => {
             themeToggleBtn.textContent = 'Switch to Blue Team';
             profileImage.src = 'images/attackerMe.jpg'; 
             profileImage.alt = 'Mina - Red Team';
+            document.querySelector('.project-list').innerHTML = '<p>YOU BETTER WATCH OUT 😈</p>';
         } else {
             // Switch to Blue Team
             rootElement.setAttribute('data-theme', 'blue');
